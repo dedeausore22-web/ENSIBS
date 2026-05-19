@@ -1,0 +1,419 @@
+.bouton-style {
+    background-color: green; /* Green background */
+    border : none; /* No border */
+    color : white; /* White text */
+    padding : 15px; /* Padding */
+    text-align : center; /* Centered text */
+    text-decoration : none; /* No underline */
+    font-size : 18px; /* Font size */
+    margin : 4px; /* Margin */
+    cursor : pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text */
+    display: inline-block; /* Display as inline-block */
+    width: 205px; 
+}
+
+.bouton-container {
+    width : 70%; /* Set the width of the container */
+    text-align: center; /* Center the container */
+    margin: auto; /* Add some top margin */
+}
+
+.containerleftright {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    width: 70%; /* Set the width of the container */
+    margin: 0 auto; /* Center the container */
+}
+.left, .right {
+    width: 60%; /* Set the width of left and right sections */
+    padding: 5px; /* Add padding */
+}
+.main {
+display: flex; /* Use flexbox for layout */
+    flex : 1; /* Allow the main section to grow and fill available space */
+    width: 70%; /* Set the width of the main section */
+    margin: auto; /* Center the main section */       
+}
+
+.content {
+    width: 80%; /* Set the width of the content */
+    padding : 20px; /* Add padding */
+}
+
+.sectionsleft {
+    width: 40%; /* Set the width of the left section */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */    
+    padding: 20px; /* Add padding */
+}
+
+.sectionleft {
+    background-color: #f0f0f0; /* Light gray background */
+    width : 230px; /* Set the width of each section */
+    padding: 10px; /* Add padding */
+    margin : 10px; /* Add margin between sections */
+}
+
+.containerceremony{
+width: 70%;
+margin: auto; /* Centre le contenu horizontalement*/
+}
+.button-ceremony{
+background-color: green;/* Couleur de fond du boutton*/
+color: white;/*Couleur du texte*/
+border: 5px solid black;/*Bordure dorée*/
+padding: 15px 40px;/* Espacement intérieur*/
+text-align: center;/*Alignement du texte*/
+font-size: 18px;/*Taille de la police*/
+font-weight: bold;/* Poids de la police*/
+margin: 10px 60px;/*Marges*/
+border-radius: 10px;/* 10: coins arrondis*/
+box-shadow: 0 10px 15px green;/* 0:effet, Ombre*/
+text-align: center;/*Alignement du texte*/
+}
+
+.container_informations{
+width: 80%;
+margin: 2px auto; /*Centre le contenu*/
+padding: 30px;
+}
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse; /*bordures adjacentes des cellules*/
+}
+th{
+text-align: left;
+}
+/*Table2*/
+caption{
+caption-side: top;/*Légende au-dessus du tableau*/
+font-size: 18px;
+margin-bottom: 10px;/*Espace entre la légende et le tableau*/
+font-weight: bold;
+text-align: center;/*Centrer la légende*/
+color: green; /*Couleur verte*/
+}
+
+.bannière_admission{
+background-color: rgb(66, 210, 243); /* Couleur de fond de la bannière */
+color: black; /* Couleur du texte */
+text-align: center; /* Alignement du texte */
+padding: 20px; /* Espacement intérieur */
+font-size: 45px; /* Taille de la police */
+font-weight: bold; /* Poids de la police */
+width: 100%; /* Largeur de la bannière */
+padding: 20px; /* Espacement intérieur */
+margin: 0 auto; /* Centrer la bannière */
+margin-bottom: 20px; /* Espace en dessous de la bannière */
+}
+
+
+#bouton-actualites {
+    background-color: rgb(66, 210, 243); /* Couleur de fond de la bannière */
+    color: black; /* Couleur du texte */
+    text-align: center; /* Alignement du texte */
+    padding: 20px; /* Espacement intérieur */
+    font-size: 20px; /* Taille de la police */
+    font-weight: bold; /* Poids de la police */
+    width: 40%; /* Largeur de la bannière */
+    padding: 20px; /* Espacement intérieur */
+    margin: 0 auto; /* Centrer la bannière */
+    margin-bottom: 20px; /* Espace en dessous de la bannière */
+}
+
+
+
+.container_informations{
+    width: 80%;
+    margin: 2px auto; /*Centre le contenu*/
+    padding: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; /*bordures adjacentes des cellules*/
+}
+th{
+    text-align: left;
+}
+
+/*Table2*/
+caption{
+    caption-side: top;/*Légende au-dessus du tableau*/
+    font-size: 18px;
+    margin-bottom: 10px;/*Espace entre la légende et le tableau*/
+    font-weight: bold;
+    text-align: center;/*Centrer la légende*/
+    color: green; /*Couleur verte*/
+}
+
+/*Styles spcifiques pour le troisième tableau*/
+.third-table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.third-table tr:nth-child(even){
+    background-color: rgba(150,212, 212, 0.4);
+
+}
+.third-table th:nth-child(even), .third-table td:nth-child(even){
+    background-color: rgba(150,212, 212, 0.4);
+    
+}
+
+/*Élément avec Id "myfooter"*/
+/* Le "#" est le pointeur de l'Id
+Le "." celui de la classe*/
+#myfooter{
+    background-color:lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+/*Pied de page avec bouton*/
+#titre-principal{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;/*Transformer le texte en majuscule et LOWERCASE pour minuscule*/
+    letter-spacing: 2px;
+}
+#titre-principal:hover{/*Styles lorsque l'élément "myfooter"est survolé*/
+    color:green;
+}
+#bouton-actualites{
+    display: block; /*Afficher tant que bloc pour occuper toute la largeur*/
+    margin: 50px auto;
+    cursor: pointer;
+    background-color: lightblue; /*Couleur de fond du bouton*/
+    color: black;/* Couleur du texte*/
+    border: 5px solid black; /*Bordure*/
+    padding: 15px 40px;/*Espacemnt intérieur*/
+    text-align: center; /*Alignement du texte*/
+    font-size: 22px;/*Taille de la police*/
+    font-weight: bold;/*Poids de la police*/
+    font-family: 'Times New Roman';/*Typographie*/
+}
+#bouton-actualites:hover{
+    background-color:green;
+}
+
+#Retrouver_nous{
+background-color: lightblue;/* Couleur de fond du boutton*/
+color: black;/*Couleur du texte*/
+border: 5px solid black;/*Bordure dorée*/
+padding: 15px 40px;/* Espacement intérieur*/
+text-align: center;/*Alignement du texte*/
+font-size: 18px;/*Taille de la police*/
+font-weight: bold;/* Poids de la police*/
+margin: 0 auto; /* Centrer le bouton horizontalement */
+display: inline-block; /* Afficher le bouton en tant qu'élément en ligne */
+width: fit-content; /* Ajuster la largeur du bouton en fonction de son contenu */
+max-width: max-content; /* Empêcher le bouton de dépasser la largeur de son contenu */
+border-radius: 10px;/* 10: coins arrondis*/
+box-shadow: 0 10px 15px green;/* 0:effet, Ombre*/
+text-align: center;/*Alignement du texte*/
+}
+
+        
+        
+body.UBS-page {
+  background-color: #001f3f; 
+  margin: 0;
+  padding: 0;
+  color: white; 
+  font-family: Arial;
+}
+.top-UBS {
+  display: flex;
+  align-items: center;         
+  padding: 20px ;
+  background-color: white;  
+}
+.photo-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.photo-container {
+    width: 300px;
+    height: 220px;
+}
+.photo-container img {
+    width: 100%;
+    height: 100%;
+}
+.photo-container .titre {
+    background: black; 
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.description-section {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: navy; 
+}
+
+
+
+html,body{
+            height: 100%;
+            margin: 0; /*supprimer les marges*/
+            padding: 0;/*Supprimer les espacements*/
+}
+body{
+            font-family: Arial;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+}
+header, footer{
+            background-color: #004d00;
+            color: white;
+            text-align: center;
+            padding: 20px;
+}
+header{
+            font-size: 32px;
+}
+footer{
+            font-size: 16px;
+}
+.container{
+            flex: 1;
+            display: grid; 
+            width: 100%; 
+            margin: 0;       
+}
+nav, article{
+            padding: 20px;
+}
+nav{
+            background-color: whitesmoke;
+            flex: 1;
+            font-size: 15px;
+}
+article{
+            background-color: white;
+            font-size: 18px;
+}
+nav ul{
+            list-style-type: none;/*Supprimer les puces ou numéros par défaut(ordonnée ou non)*/
+            padding: 0;
+}
+nav ul li{
+            flex: 1;
+}
+nav ul li a {
+            color: black;
+            font-size: 18px;
+            padding: 15px;
+            border: 1px solid whitesmoke;
+            border-radius: 5px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;/*la largeur et la hauteur incluent les bordures et les espacements
+            internes*/
+}
+nav ul li a:hover{
+            background-color: #004d00;
+            color: white;
+}
+.btn {
+            display: inline-block; /*élément en ligne*/
+            padding: 15px 25px;
+            margin: 5px 0;
+            font-size: 18px;
+            text-align: center;
+            color: white;
+            background-color: #004d00;
+            border-radius: 5px;
+            text-decoration: none;/*enlever le soulignement du texte*/
+        }
+.btn:hover{
+            background-color: #003300;
+        }
+
+@media (min-width: 600px){/*règle de média apploquée lorsque la largeur de l"écran est d'au moins 600 pixels*/
+.container{
+                grid-template-columns: 20% 80%;/*deux colonnes*/
+                grid-template-rows: none;/*aucune ligne*/
+            }
+nav{
+                order: 1;/*Placé en premier dans l'ordre de la grille*/
+            }
+article{
+            order: 2;    
+            }
+}
+
+.containerleftright2 {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 20% 80%;/*deux colonnes*/
+    grid-template-rows: none;/*aucune ligne*/
+}
+
+.left2 {
+    width: 20%;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.right2 {
+    width: 80%;
+    padding: 5px;
+}
+
+header{
+    background-color:darkgreen ;
+    text-align: center;
+}
+footer{
+    background-color:darkgreen ;
+    text-align: center;
+}
+
+ .containerMedia {
+      width: 70%;
+      margin: auto; 
+      align-items: center;   
+      text-align: center;
+  }
+  .video-container {
+    display: flex;/*diviser la section */
+    align-items: center;
+}
+.video {
+    flex: 1; /*ajouter une sous-section */
+    margin: 10px;
+}
+#button-média {
+  display: inline-block; /*centrer*/
+  margin: 20px auto;
+  border: black;
+  cursor: pointer;                                                                          
+  background-color: lightblue; 
+  color: black; 
+  border: 5px solid black;
+  border-radius: 6px;
+  padding: 15px 40px; 
+  text-align: center; 
+  font-size: 22px; 
+  font-weight: bold; 
+  font-family: 'Times New Roman'; 
+}
+
